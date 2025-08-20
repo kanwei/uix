@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.pitch</groupId>
   <artifactId>uix.core</artifactId>
-  <version>1.4.9</version>
+  <version>1.4.8</version>
   <name>core</name>
   <licenses>
     <license>
@@ -13,10 +13,10 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git@github.com:pitch-io/uix.git</connection>
-    <developerConnection>scm:git:git@github.com:pitch-io/uix.git</developerConnection>
-    <tag>cef168ffb27d3a912e490a832bc4a8fb6b235d03</tag>
-    <url>https://github.com/pitch-io/uix/tree/master/core</url>
+    <connection>scm:git:git@github.com:kanwei/uix.git</connection>
+    <developerConnection>scm:git:git@github.com:kanwei/uix.git</developerConnection>
+    <tag>909618623cbe87fd30f57a2891a6079d5c363e14</tag>
+    <url>https://github.com/kanwei/uix/tree/master/core</url>
   </scm>
   <dependencies>
     <dependency>
