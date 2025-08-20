@@ -2,7 +2,7 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.pitch</groupId>
+  <groupId>kanwei</groupId>
   <artifactId>uix.core</artifactId>
   <version>1.4.4</version>
   <name>core</name>
@@ -19,12 +19,16 @@
       <name>Eclipse Public License - Version 2.0</name>
       <url>https://www.eclipse.org/legal/epl-2.0/</url>
     </license>
+    <license>
+      <name>Eclipse Public License - Version 2.0</name>
+      <url>https://www.eclipse.org/legal/epl-2.0/</url>
+    </license>
   </licenses>
   <scm>
-    <connection>scm:git:git@github.com:pitch-io/uix.git</connection>
-    <developerConnection>scm:git:git@github.com:pitch-io/uix.git</developerConnection>
-    <tag>21f8761014b20b327395f16c45757a1c89f5b8b6</tag>
-    <url>https://github.com/pitch-io/uix/tree/master/core</url>
+    <connection>scm:git:git@github.com:kanwei/uix.git</connection>
+    <developerConnection>scm:git:git@github.com:kanwei/uix.git</developerConnection>
+    <tag>909618623cbe87fd30f57a2891a6079d5c363e14</tag>
+    <url>https://github.com/kanwei/uix/tree/master/core</url>
   </scm>
   <dependencies>
     <dependency>
@@ -36,11 +40,6 @@
       <groupId>org.clj-commons</groupId>
       <artifactId>hickory</artifactId>
       <version>0.7.3</version>
-    </dependency>
-    <dependency>
-      <groupId>com.adamrenklint</groupId>
-      <artifactId>preo</artifactId>
-      <version>0.1.0</version>
     </dependency>
   </dependencies>
   <build>

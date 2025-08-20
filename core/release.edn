@@ -1,4 +1,4 @@
-{:group-id "com.pitch"
+{:group-id "com.github.kanwei"
  :artifact-id "uix.core"
  :version "1.4.4"
- :scm-url "https://github.com/pitch-io/uix/tree/master/core"}
+ :scm-url "https://github.com/kanwei/uix/tree/master/core"}
