@@ -4,7 +4,6 @@
             [clojure.test :refer :all]
             [uix.core :as uix :refer [defui $ defcontext]]
             [cljs.analyzer :as ana]
-            [preo.core]
             [uix.dom.server :as server]))
 
 (deftest test-parse-sig

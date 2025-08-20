@@ -1,8 +1,5 @@
 (ns uix.preload
-  (:require [uix.dev]
-            [uix.validate]))
-
-(uix.validate/set-props-assertion-enabled! true)
+  (:require [uix.dev]))
 
 (uix.dev/init-fast-refresh!)
 
