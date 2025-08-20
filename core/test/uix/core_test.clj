@@ -3,8 +3,7 @@
             [clojure.string :as str]
             [clojure.test :refer :all]
             [uix.core :as uix]
-            [cljs.analyzer :as ana]
-            [preo.core]))
+            [cljs.analyzer :as ana]))
 
 (deftest test-parse-sig
   (is (thrown-with-msg? AssertionError #"uix.core\/defui doesn't support multi-arity"
