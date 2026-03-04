@@ -8,6 +8,8 @@
             [uix.lib :refer [doseq-loop map->js]]
             [cljs-bean.core :as bean]))
 
+(goog-define hoisting-enabled? true)
+
 (def props-assert-fn (atom (fn [& args] true)))
 
 (def ^:dynamic *current-component*)

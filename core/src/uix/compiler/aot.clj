@@ -261,10 +261,13 @@
       :mode
       (= :release)))
 
+(defn hoisting-enabled? []
+  (get-in @env/*compiler* [:options :closure-defines 'uix.core/hoisting-enabled?] true))
+
 (defn rewrite-forms [body & {:keys [hoist? fname force?]}]
   (let [hoisted (atom [])
         hoist? (or (and force? hoist?)
-                   (and hoist? (release-build?)))
+                   (and hoist? (hoisting-enabled?) (release-build?)))
         body (postwalk
                (fn [form]
                  (let [form (compile-form form)]
@@ -316,6 +319,6 @@
       el)))
 
 (defn inline-elements [hoisted env enabled? force?]
-  (when (or force? (and enabled? (release-build?)))
+  (when (or force? (and enabled? (hoisting-enabled?) (release-build?)))
     (for [[form sym] hoisted]
       `(def ~sym ~(inline-element form {:env env})))))
